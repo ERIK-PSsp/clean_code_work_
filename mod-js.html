@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLEAN_CODE_WORK</title>
+    <link rel="shortcut icon" href="./favicon.png" type="image/x-icon">
+
+    <style>
+        body {
+            background-color: #4c0f74;
+            background-attachment: scroll;
+        }
+
+        header {
+            text-align: center;
+            margin-top: auto;
+        }
+
+        header>h1 {
+            color: #000000;
+            padding: 1vw;
+            margin-top: 10px;
+        }
+
+        menu {
+            color: whitesmoke;
+            text-align: center;
+            list-style-type: none;
+            width: 90vw;
+            margin: auto;
+        }
+
+        menu>ul {
+            list-style-type: none;
+        }
+
+        menu>ul>li>a {
+            display: block;
+            padding: 7px;
+            text-decoration: none;
+            text-align: center;
+            background-color: #9a2ce3;
+            border-radius: 0px 0px 0px 0px;
+            color: whitesmoke;
+            margin: auto;
+
+        }
+
+        menu>ul>li>a:hover {
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        main {
+            background-color: #8644A2;
+            height: max-content;
+            padding: 0px 0px 10px 10px;
+            width: 89vw;
+            margin: auto;
+        }
+
+        h2 {
+            color: #000000;
+            text-align: center;
+            padding: 10px;
+            margin: auto;
+        }
+
+        article {
+            gap: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            margin: 3vw;
+            margin-top: auto;
+        }
+
+        article2 {
+            gap: 15px;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: flex-end;
+            padding: 0.5vw;
+            margin-top: auto;
+            margin: auto;
+        }
+
+        p {
+            font-size: 1.15vw;
+            color: #000000;
+            margin: 3vw;
+            margin-top: auto;
+            gap: 5px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        footer {
+            background-color: blueviolet;
+            width: 90vw;
+            margin: auto;
+            text-align: center;
+        }
+
+        footer>p {
+            border-radius: 0px 0px 10px 10px;
+            padding: 7px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Modulação em Javascript</h1>
+    </header>
+    <menu id="itens">
+        <ul>
+            <li><a href="index.html">Clean Code</a></li>
+            <li><a href="mod-js.html">Modulação JS</a></li>
+        </ul>
+        <main>
+
+            <h2>O que é clean code</h2>
+            <article>
+                <img src="./modjs.jpg" alt="">
+                <p>
+                    Em JavaScript, modulação (ou módulos) refere-se à prática de dividir o código em unidades menores e
+                    independentes, chamadas de "módulos", que podem ser reutilizadas e mantidas separadamente. Isso
+                    ajuda a organizar o código de forma mais eficiente, facilita a manutenção, e permite o reuso de
+                    funcionalidades em diferentes partes de uma aplicação. A modulação em JavaScript é a prática de
+                    dividir o código em partes menores e independentes, chamadas de módulos, facilitando a organização,
+                    manutenção e reutilização do código. A partir do ECMAScript 6 (ES6), JavaScript introduziu uma
+                    sintaxe padrão para módulos, permitindo a exportação e importação de funcionalidades entre
+                    diferentes arquivos.
+
+                    Existem dois tipos principais de exportação: exportação nomeada (que permite exportar múltiplos
+                    itens) e exportação padrão (que exporta uma única funcionalidade como principal do módulo). Para
+                    usar essas funcionalidades em outros arquivos, usamos a sintaxe de importação, que pode ser tanto
+                    nomeada quanto padrão, dependendo de como a exportação foi feita.
+
+                    A modulação melhora a organização do código, facilita o reuso de funções e objetos e torna a
+                    manutenção do código mais eficiente. Além disso, ela permite o encapsulamento, pois somente as
+                    funcionalidades explicitamente exportadas ficam acessíveis fora do módulo.
+                </p>
+            </article>
+            <article2>
+                <img src="./modjs2.jpg" alt="" height="100%" width="100%">
+                <p>Em conclusão, a modulação em JavaScript é uma prática essencial para a criação de código organizado,
+                    reutilizável e fácil de manter. Com a introdução dos módulos nativos no ECMAScript 6, ficou muito
+                    mais simples dividir uma aplicação em partes independentes, permitindo que funcionalidades sejam
+                    exportadas e importadas entre arquivos de maneira clara e eficiente. Isso não só melhora a
+                    legibilidade e a escalabilidade do código, mas também promove boas práticas de desenvolvimento, como
+                    o encapsulamento e a separação de responsabilidades. A modulação é, portanto, uma ferramenta
+                    fundamental para a construção de aplicações mais robustas e fáceis de gerenciar, especialmente em
+                    projetos de maior porte.
+                </p>
+            </article2>
+        </main>
+        <footer>ERIK-2024</footer>
+</body>
+
+</html>

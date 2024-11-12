@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CLEAN_CODE_WORK</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <style>
+        body {
+            background-color: #4c0f74;
+            background-attachment: scroll;
+        }
+
+        header {
+            text-align: center;
+            margin-top: auto;
+        }
+
+        header>h1 {
+            color: #000000;
+            padding: 1vw;
+            margin-top: 10px;
+        }
+
+        menu {
+            color: whitesmoke;
+            text-align: center;
+            list-style-type: none;
+            width: 90vw;
+            margin: auto;
+        }
+
+        menu>ul {
+            list-style-type: none;
+        }
+
+        menu>ul>li>a {
+            display: block;
+            padding: 7px;
+            text-decoration: none;
+            text-align: center;
+            background-color: var(--maincolor);
+            border-radius: 0px 0px 0px 0px;
+            color: whitesmoke;
+            margin: auto;
+
+        }
+
+        menu>ul>li>a:hover {
+            background-color: var(--botaocolor);
+            color: whitesmoke;
+            text-decoration: none;
+        }
+
+        main {
+            background-color: #8644A2;
+            height: max-content;
+            width: 95vw;
+            text-align: justify;
+            margin: auto;
+        }
+
+        h2 {
+            color: #000000;
+            text-align: center;
+            padding: 10px;
+            margin: auto;
+        }
+
+        article {
+            gap: 15px;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            margin: 3vw;
+            margin-top: auto;
+        }
+
+        article2 {
+            gap: 15px;
+            display: flex;
+            flex-direction: row-reverse;
+            align-items: flex-end;
+            padding: 0.5vw;
+            margin-top: auto;
+            margin: auto;
+        }
+
+        p {
+            font-size: 1.15vw;
+            color: #000000;
+            margin: 3vw;
+            margin-top: auto;
+            gap: 5px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+        }
+
+        footer {
+            background-color: blueviolet;
+            width: 95vw;
+            margin: auto;
+            text-align: center;
+        }
+
+        footer>p {
+            border-radius: 0px 0px 10px 10px;
+            padding: 7px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Clean Code</h1>
+    </header>
+    <menu id="itens">
+        <ul>
+            <li><a href="index.html">Clean Code</a></li>
+            <li><a href="mod-js.html">Modulação JS</a></li>
+        </ul>
+        <main>
+            <h2>O que é clean code</h2>
+            <article><img src="./clean_code1.png" alt="">
+                <p>
+                    "Clean Code" (ou "Código Limpo", em português) é um conceito popularizado pelo desenvolvedor e
+                    autor
+                    Robert C. Martin, também conhecido como Uncle Bob, em seu livro "Clean Code: A Handbook of Agile
+                    Software Craftsmanship". O objetivo do Clean Code é promover boas práticas de codificação para
+                    criar
+                    códigos que sejam não apenas funcionais, mas também legíveis, manuteníveis e de fácil
+                    compreensão. Em
+                    resumo, trata-se de escrever código de maneira simples e clara, facilitando tanto o trabalho de
+                    quem
+                    escreve quanto de quem vai ler ou dar manutenção nesse código no futuro.
+                </p>
+            </article>
+            <article2>
+                <img src="clean_code2.png" alt="" height="100%" width="100%">
+                <p>Resumindo, o clean Code é um conceito de boas práticas para a escrita de código que enfatiza
+                    legibilidade,
+                    simplicidade e manutenibilidade. Popularizado por Robert C. Martin, o objetivo é criar um código
+                    que
+                    seja fácil de entender, modificar e testar. Para isso, o Clean Code recomenda princípios como:
+
+                    Legibilidade: O código deve ser claro e fácil de entender, com nomes descritivos e bem
+                    escolhidos.
+                    Simplicidade: O código deve ser direto e evitar complexidade desnecessária.
+                    Responsabilidade Única: Funções e classes devem ter uma única responsabilidade bem definida.
+                    Evitar Duplicação: O código repetido deve ser evitado, priorizando a reutilização e abstração.
+                    Testabilidade: O código deve ser fácil de testar, facilitando a garantia de que ele funciona
+                    corretamente.
+                    Consistência: Seguir padrões consistentes de estilo e formatação.
+                    Adotar o Clean Code traz benefícios como manutenibilidade, redução de erros, facilidade de
+                    colaboração e
+                    escabilidade dos projetos, além de tornar o desenvolvimento mais ágil e sustentável.
+                </p>
+            </article2>
+        </main>
+        <footer>ERIK-2024</footer>
+</body>
+
+</html>
